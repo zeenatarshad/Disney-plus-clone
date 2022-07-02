@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Disney+ Hotstar Clone</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <img src="images/logo.png" class="disney-logo" alt="logo here"> 
+            <ul class="nav-links" type="none">
+                <li class="nav-items"><a href="#">TV</a></li>
+                <li class="nav-items"><a href="#">Movies</a></li>
+                <li class="nav-items"><a href="#">Sports</a></li>
+                <li class="nav-items"><a href="#">Premium</a></li>
+            </ul>
+            <div class="right-container">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="subscribe">Subscribe</button>
+                <a href="#" class="login">Login</a>
+            </div>
+        </nav>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <!-- <div class="slider">
+                    <div class="slide-content">
+                        <h1 class="movie-title">Loki</h1>
+                        <p class="movie-description"> Loki, Prince of Asgard, Odinson, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard. In his lust for power, he extends his reach to Earth.
+                        </p>
+                    </div>
+                    <img src="images/slider 1.png" alt="slider1">
+                </div> -->
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="video-card">
+                <img src="images/disney.png" alt="disney" class="video-card-image">
+                <video src="videos/disney.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="images/geographic.png" alt="geographic" class="video-card-image">
+                <video src="videos/geographic.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="images/marvel.png" alt="marvel" class="video-card-image">
+                <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="images/pixar.png" alt="pixar" class="video-card-image">
+                <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="images/star-wars.png" alt="star-wars" class="video-card-image">
+                <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+            </div>
+        </div>
+
+        <h1 class="title">Recommended for you</h1>
+        <div class="movies-list">
+            <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+            <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/poster 1.png" alt="poster1" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Loki</h2>
+                        <h6 class="des">God of Mischief and brother to Thor, Loki's tricks and schemes wreak havoc across the realms. Loki, Prince of Asgard, Odinson, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 2.png" alt="poster2" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Mulan</h2>
+                        <h6 class="des">Fearful that her ailing father will be drafted into the Chinese military, Mulan (Ming-Na Wen) takes his spot -- though, as a girl living under a patriarchal regime, she is technically unqualified to serve. She cleverly impersonates a man and goes off to train with fellow recruits. Accompanied by her dragon, Mushu (Eddie Murphy), she uses her smarts to help ward off a Hun invasion, falling in love with a dashing captain along the way.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 3.png" alt="poster3" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Falcon & the Winter Soldier</h2>
+                        <h6 class="des">Following the events of Avengers: Endgame, Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities — and their patience — in Marvel Studios' The Falcon and The Winter Soldier.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 4.png" alt="poster4" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers Endgame</h2>
+                        <h6 class="des">Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 5.png" alt="poster5" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 class="des">Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger. Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 6.png" alt="poster6" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers</h2>
+                        <h6 class="des">When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's "dream team" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 7.png" alt="poster7" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Pirates of the Caribbean</h2>
+                        <h6 class="des">Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 8.png" alt="poster8" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Soul</h2>
+                        <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+               <div class="card">
+                    <img src="images/poster 9.png" alt="poster9" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Raya and the last dragon</h2>
+                        <h6 class="des">Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. However, when sinister monsters known as the Druun threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, those same monsters have returned, and it's up to a lone warrior to track down the last dragon and stop the Druun for good.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+              <div class="card">
+                    <img src="images/poster 10.png" alt="poster10" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Luca</h2>
+                        <h6 class="des">Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water's surface.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 11.png" alt="poster11" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Ford V Ferrari</h2>
+                        <h6 class="des">American automotive designer Carroll Shelby and fearless British race car driver Ken Miles battle corporate interference, the laws of physics and their own personal demons to build a revolutionary vehicle for the Ford Motor Co. Together, they plan to compete against the race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+               <div class="card">
+                    <img src="images/poster 12.png" alt="poster12" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Dark Phoenix</h2>
+                        <h6 class="des">The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+        <h1 class="title">Popular Shows</h1>
+        <div class="movies-list">
+            <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+            <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/poster 5.png" alt="poster5" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 class="des">Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger. Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 11.png" alt="poster11" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Ford V Ferrari</h2>
+                        <h6 class="des">American automotive designer Carroll Shelby and fearless British race car driver Ken Miles battle corporate interference, the laws of physics and their own personal demons to build a revolutionary vehicle for the Ford Motor Co. Together, they plan to compete against the race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+               <div class="card">
+                    <img src="images/poster 12.png" alt="poster12" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Dark Phoenix</h2>
+                        <h6 class="des">The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 1.png" alt="poster1" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Loki</h2>
+                        <h6 class="des">God of Mischief and brother to Thor, Loki's tricks and schemes wreak havoc across the realms. Loki, Prince of Asgard, Odinson, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 4.png" alt="poster4" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers Endgame</h2>
+                        <h6 class="des">Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 10.png" alt="poster10" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Luca</h2>
+                        <h6 class="des">Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water's surface.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 6.png" alt="poster6" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers</h2>
+                        <h6 class="des">When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's "dream team" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 3.png" alt="poster3" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Falcon & the Winter Soldier</h2>
+                        <h6 class="des">Following the events of Avengers: Endgame, Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities — and their patience — in Marvel Studios' The Falcon and The Winter Soldier.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 7.png" alt="poster7" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Pirates of the Caribbean</h2>
+                        <h6 class="des">Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 2.png" alt="poster2" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Mulan</h2>
+                        <h6 class="des">Fearful that her ailing father will be drafted into the Chinese military, Mulan (Ming-Na Wen) takes his spot -- though, as a girl living under a patriarchal regime, she is technically unqualified to serve. She cleverly impersonates a man and goes off to train with fellow recruits. Accompanied by her dragon, Mushu (Eddie Murphy), she uses her smarts to help ward off a Hun invasion, falling in love with a dashing captain along the way.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 8.png" alt="poster8" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Soul</h2>
+                        <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+               <div class="card">
+                    <img src="images/poster 9.png" alt="poster9" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Raya and the last dragon</h2>
+                        <h6 class="des">Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. However, when sinister monsters known as the Druun threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, those same monsters have returned, and it's up to a lone warrior to track down the last dragon and stop the Druun for good.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="title">Latest& Trending</h1>
+        <div class="movies-list">
+            <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+            <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/poster 9.png" alt="poster9" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Raya and the last dragon</h2>
+                        <h6 class="des">Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. However, when sinister monsters known as the Druun threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, those same monsters have returned, and it's up to a lone warrior to track down the last dragon and stop the Druun for good.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 2.png" alt="poster2" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Mulan</h2>
+                        <h6 class="des">Fearful that her ailing father will be drafted into the Chinese military, Mulan (Ming-Na Wen) takes his spot -- though, as a girl living under a patriarchal regime, she is technically unqualified to serve. She cleverly impersonates a man and goes off to train with fellow recruits. Accompanied by her dragon, Mushu (Eddie Murphy), she uses her smarts to help ward off a Hun invasion, falling in love with a dashing captain along the way.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 1.png" alt="poster1" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Loki</h2>
+                        <h6 class="des">God of Mischief and brother to Thor, Loki's tricks and schemes wreak havoc across the realms. Loki, Prince of Asgard, Odinson, rightful heir of Jotunheim, and God of Mischief, is burdened with glorious purpose. His desire to be a king drives him to sow chaos in Asgard.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 5.png" alt="poster5" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 class="des">Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger. Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 3.png" alt="poster3" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Falcon & the Winter Soldier</h2>
+                        <h6 class="des">Following the events of Avengers: Endgame, Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities — and their patience — in Marvel Studios' The Falcon and The Winter Soldier.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 10.png" alt="poster10" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Luca</h2>
+                        <h6 class="des">Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water's surface.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 4.png" alt="poster4" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers Endgame</h2>
+                        <h6 class="des">Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 6.png" alt="poster6" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers</h2>
+                        <h6 class="des">When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's "dream team" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 7.png" alt="poster7" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Pirates of the Caribbean</h2>
+                        <h6 class="des">Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 8.png" alt="poster8" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Soul</h2>
+                        <h6 class="des">Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/poster 11.png" alt="poster11" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Ford V Ferrari</h2>
+                        <h6 class="des">American automotive designer Carroll Shelby and fearless British race car driver Ken Miles battle corporate interference, the laws of physics and their own personal demons to build a revolutionary vehicle for the Ford Motor Co. Together, they plan to compete against the race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+               <div class="card">
+                    <img src="images/poster 12.png" alt="poster12" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Dark Phoenix</h2>
+                        <h6 class="des">The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy.</h6>
+                        <button class="watchlist-button">add to watchlist</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <script src="data.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
